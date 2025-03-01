@@ -20,7 +20,7 @@ class UnitPage extends StatelessWidget {
     adHelper.loadAd(); // Load Interstitial Ad
   }
 
-  /// Function to get YouTube thumbnail URL
+  // Function to get YouTube thumbnail URL
   String getYouTubeThumbnail(String url) {
     final Uri uri = Uri.parse(url);
     if (uri.host.contains('youtube.com') || uri.host.contains('youtu.be')) {
@@ -150,7 +150,7 @@ class UnitPage extends StatelessWidget {
                     ),
                   ),
 
-                  /// 🔴 Fetch & Display Videos in Grid Layout
+                  // Fetch & Display Videos in Grid Layout
                   StreamBuilder<QuerySnapshot>(
                     stream: FirebaseFirestore.instance
                         .collection('courses')
