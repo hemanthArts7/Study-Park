@@ -5,7 +5,6 @@ import 'package:url_launcher/url_launcher.dart';
 class DeveloperPage extends StatelessWidget {
   const DeveloperPage({super.key});
 
-  // Function to launch URLs
   void _launchURL(String url) async {
     final Uri uri = Uri.parse(url);
     if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
@@ -37,7 +36,6 @@ class DeveloperPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // Default Profile Icon Instead of Image
               CircleAvatar(
                 radius: 50,
                 backgroundColor: Colors.blueAccent,
