@@ -8,7 +8,6 @@ import 'package:study_park/screens/pdf_viewer.dart';
 
 class AppRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
-    // Debugging: Print route name and arguments
 
     switch (settings.name) {
       case '/':
@@ -47,7 +46,6 @@ class AppRouter {
         if (settings.arguments is Map<String, dynamic>) {
           final args = settings.arguments as Map<String, dynamic>;
 
-          // Ensure `unitNumber` is properly converted to a String
           String unitNumber = args['unitNumber'].toString();
 
           return MaterialPageRoute(
@@ -55,7 +53,7 @@ class AppRouter {
               courseId: args['courseId'] ?? '',
               semesterId: args['semesterId'] ?? '',
               subjectId: args['subjectId'] ?? '',
-              unitNumber: unitNumber, // ✅ Always String now
+              unitNumber: unitNumber,
               pdfUrl: args['pdfUrl'] ?? '',
             ),
           );
