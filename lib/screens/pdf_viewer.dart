@@ -32,10 +32,10 @@ class _PdfViewerScreenState extends State<PdfViewerScreen> {
     _loadAd();
   }
 
-  /// Load Interstitial Ad
+  //Load Interstitial Ad
   void _loadAd() {
     InterstitialAd.load(
-      adUnitId: 'ca-app-pub-3940256099942544/1033173712', // ✅ TEST AD ID
+      adUnitId: **************
       request: const AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (InterstitialAd ad) {
@@ -49,7 +49,7 @@ class _PdfViewerScreenState extends State<PdfViewerScreen> {
     );
   }
 
-  /// Show Interstitial Ad before opening PDF in browser
+  //Show Interstitial Ad before downloading PDF
   void _showAdAndOpenBrowser() {
     if (_interstitialAd != null) {
       _interstitialAd!.fullScreenContentCallback = FullScreenContentCallback(
@@ -69,7 +69,7 @@ class _PdfViewerScreenState extends State<PdfViewerScreen> {
     }
   }
 
-  /// Open PDF in External Browser
+  //Download PDF
   void _openInBrowser() async {
     Uri url = Uri.parse(widget.pdfUrl);
     if (await canLaunchUrl(url)) {
@@ -88,9 +88,9 @@ class _PdfViewerScreenState extends State<PdfViewerScreen> {
         title: Text(widget.unitNumber),
         actions: [
           IconButton(
-            icon: const Icon(Icons.open_in_browser), // Browser Icon
+            icon: const Icon(Icons.open_in_browser),
             onPressed:
-                _showAdAndOpenBrowser, // Show ad first, then open browser
+                _showAdAndOpenBrowser,
           ),
         ],
       ),
