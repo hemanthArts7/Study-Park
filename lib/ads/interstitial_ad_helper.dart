@@ -5,10 +5,10 @@ import 'package:url_launcher/url_launcher.dart';
 class InterstitialAdHelper {
   InterstitialAd? _interstitialAd;
 
-  /// Load Interstitial Ad (Using Test Ad ID)
+  // Load Interstitial Ad
   void loadAd() {
     InterstitialAd.load(
-      adUnitId: 'ca-app-pub-3940256099942544/1033173712', // ✅ TEST AD ID
+      adUnitId: *****************************
       request: const AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (InterstitialAd ad) {
@@ -22,7 +22,7 @@ class InterstitialAdHelper {
     );
   }
 
-  /// Show Interstitial Ad before opening YouTube
+  // Show Interstitial Ad before opening YouTube
   void showAdAndOpenLink(String url) {
     if (_interstitialAd != null) {
       _interstitialAd!.fullScreenContentCallback = FullScreenContentCallback(
@@ -42,7 +42,7 @@ class InterstitialAdHelper {
     }
   }
 
-  /// Open YouTube Link
+  // Open YouTube Link
   void _launchURL(String url) async {
     final Uri uri = Uri.parse(url);
     if (await canLaunchUrl(uri)) {
