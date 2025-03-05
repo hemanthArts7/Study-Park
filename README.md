@@ -25,35 +25,9 @@ Study Park is a **Flutter-based educational app** designed to provide students w
 - 🎥 **YouTube Video Integration** – Watch related videos under each unit.
 - 🔍 **Search Bar** – Fetch subjects dynamically from Firebase Firestore.
 - 📢 **Google Ads Integration** – Monetization through Google Ads.
-- 💡 **Affiliate Marketing** – Earn through book recommendations.
 - 📲 **Firebase Firestore Backend** – Manage app content dynamically with real-time updates.
 
 
-
-## 🚀 Installation
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/study_park.git
-   ```
-2. **Navigate to the project directory:**
-   ```sh
-   cd study_park
-   ```
-3. **Install dependencies:**
-   ```sh
-   flutter pub get
-   ```
-4. **Run the app:**
-   ```sh
-   flutter run
-   ```
-
-## 🔥 Firebase Setup
-
-1. Create a Firebase project and enable Firestore.
-2. Add the `google-services.json` (for Android) and `GoogleService-Info.plist` (for iOS) in the respective directories.
-3. Structure Firestore collections for courses, semesters, subjects, units, and PDF URLs.
 
 ## 📂 Folder Structure
 
@@ -79,26 +53,6 @@ study_park/
 - **GitHub** – PDF storage
 - **Google Ads SDK** – Monetization
 
-## 🤝 Contribution
-
-Contributions are welcome! Follow these steps:
-
-1. **Fork the repository**
-2. **Create a new branch:**
-   ```sh
-   git checkout -b feature-name
-   ```
-3. **Commit changes:**
-   ```sh
-   git commit -m "Add new feature"
-   ```
-4. **Push to the branch:**
-   ```sh
-   git push origin feature-name
-   ```
-5. **Create a Pull Request**
-
----
 
 🚀 **Happy Learning with Study Park!** 📖✨
 
