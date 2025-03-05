@@ -19,7 +19,7 @@ class _AdBannerState extends State<AdBanner> {
   void _loadBannerAd() {
     _bannerAd = BannerAd(
       adUnitId:
-          'ca-app-pub-3940256099942544/6300978111', // Replace with your actual Banner Ad unit ID
+       *********************
       size: AdSize.banner,
       request: AdRequest(),
       listener: BannerAdListener(
@@ -40,11 +40,11 @@ class _AdBannerState extends State<AdBanner> {
     return _isBannerAdLoaded
         ? Container(
             alignment: Alignment.center,
-            // ignore: sort_child_properties_last
+         
             child: AdWidget(ad: _bannerAd!),
             height: 50,
           )
-        : SizedBox.shrink(); // Empty widget if ad is not loaded
+        : SizedBox.shrink();
   }
 
   @override

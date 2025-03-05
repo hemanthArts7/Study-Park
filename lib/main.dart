@@ -7,7 +7,7 @@ import 'package:study_park/routers/app_router.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  // Force Firestore to fetch fresh data
+  // Firestore to fetch fresh data
   FirebaseFirestore.instance.settings =
       const Settings(persistenceEnabled: false);
   FirebaseFirestore.instance.enableNetwork();

@@ -117,7 +117,7 @@ class SubjectPage extends StatelessWidget {
               ),
             ),
           ),
-          AdBanner(), // Ad displayed at the bottom
+          AdBanner(), // Ad
         ],
       ),
     );

@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class FirestoreSearchService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  /// ✅ **Fetch subjects from Firestore matching the search query**
+  // Fetch subjects from Firestore matching the search query
   Future<List<String>> searchSubjects(String query) async {
     if (query.isEmpty) return [];
 
