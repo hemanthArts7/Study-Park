@@ -1,28 +1,38 @@
 # Study Park
 
-Study Park is a Flutter-based educational app designed to provide students with structured course materials, unit-wise PDFs, and related YouTube videos for easy learning. The app dynamically fetches courses, semesters, subjects, and units from Firebase Firestore and stores PDFs on GitHub.
+Study Park is a **Flutter-based educational app** designed to provide students with structured course materials, unit-wise PDFs, and related YouTube videos for easy learning. The app dynamically fetches courses, semesters, subjects, and units from **Firebase Firestore** and stores PDFs on **GitHub**.
 
-![image alt](https://github.com/hemanthArts7/Study-Park/blob/84c3ed222ce8ef26d967caca8d245149b74a1132/ss/SplashScreen.jpg) ![image alt](https://github.com/hemanthArts7/Study-Park/blob/84c3ed222ce8ef26d967caca8d245149b74a1132/ss/Homepage.jpg)
+<p align="center">
+  <img src="https://github.com/hemanthArts7/Study-Park/blob/de6040674e27483d9d253efa69c4336d8f8133dc/ss/SplashScreen.jpg" height="400" width="200">
+  <img src="https://github.com/hemanthArts7/Study-Park/blob/de6040674e27483d9d253efa69c4336d8f8133dc/ss/Homepage.jpg" height="400" width="200">
+   <img src="https://github.com/hemanthArts7/Study-Park/blob/7a6102287ab018223bfb3421d04be97bd63e948c/screenshots/Semesters.jpg" height="400" width="200">
+    <img src="https://github.com/hemanthArts7/Study-Park/blob/7a6102287ab018223bfb3421d04be97bd63e948c/screenshots/Subjects.jpg" height="400" width="200">
+    <img src="https://github.com/hemanthArts7/Study-Park/blob/7a6102287ab018223bfb3421d04be97bd63e948c/screenshots/Units.jpg" height="400" width="200">
+   <img src="https://github.com/hemanthArts7/Study-Park/blob/7a6102287ab018223bfb3421d04be97bd63e948c/screenshots/Pdf.jpg" height="400" width="200">
+    <img src="https://github.com/hemanthArts7/Study-Park/blob/7a6102287ab018223bfb3421d04be97bd63e948c/screenshots/Developer.jpg" height="400" width="200">
+    <img src="https://github.com/hemanthArts7/Study-Park/blob/7a6102287ab018223bfb3421d04be97bd63e948c/screenshots/Feedback.jpg" height="400" width="200">
+</p>
+</p>
 
-## Features
+## ✨ Features
 
 - 📚 **Course Selection** – Choose from various courses available in the app.
 - 🎓 **Semester & Subject Selection** – Navigate through semesters and subjects dynamically.
-- 📄 **Unit-wise PDFs** – Access unit-wise study materials stored on GitHub.
-- 🎥 **YouTube Video Integration** – Watch related YouTube videos under each unit.
-- 🔍 **Search Bar** – Search subjects dynamically from Firebase Firestore while typing.
+- 📄 **Unit-wise PDFs** – Access study materials stored on GitHub.
+- 🎥 **YouTube Video Integration** – Watch related videos under each unit.
+- 🔍 **Search Bar** – Fetch subjects dynamically from Firebase Firestore.
 - 📢 **Google Ads Integration** – Monetization through Google Ads.
 - 💡 **Affiliate Marketing** – Earn through book recommendations.
 - 📲 **Firebase Firestore Backend** – Manage app content dynamically with real-time updates.
 
+<p align="center">
+  <img src="screenshots/home_screen.png" width="250">
+  <img src="screenshots/semester_selection.png" width="250">
+  <img src="screenshots/subject_list.png" width="250">
+  <img src="screenshots/unit_pdfs.png" width="250">
+</p>
 
-
-![Home Screen](screenshots/home_screen.png)
-![Semester Selection](screenshots/semester_selection.png)
-![Subject List](screenshots/subject_list.png)
-![Unit PDFs](screenshots/unit_pdfs.png)
-
-## Installation
+## 🚀 Installation
 
 1. **Clone the repository:**
    ```sh
@@ -41,13 +51,13 @@ Study Park is a Flutter-based educational app designed to provide students with 
    flutter run
    ```
 
-## Firebase Setup
+## 🔥 Firebase Setup
 
 1. Create a Firebase project and enable Firestore.
 2. Add the `google-services.json` (for Android) and `GoogleService-Info.plist` (for iOS) in the respective directories.
 3. Structure Firestore collections for courses, semesters, subjects, units, and PDF URLs.
 
-## Folder Structure
+## 📂 Folder Structure
 
 ```
 study_park/
@@ -63,7 +73,7 @@ study_park/
 │-- README.md
 ```
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Flutter** – Frontend framework
 - **Dart** – Programming language
@@ -71,7 +81,7 @@ study_park/
 - **GitHub** – PDF storage
 - **Google Ads SDK** – Monetization
 
-## Contribution
+## 🤝 Contribution
 
 Contributions are welcome! Follow these steps:
 
@@ -90,7 +100,7 @@ Contributions are welcome! Follow these steps:
    ```
 5. **Create a Pull Request**
 
+---
 
-
-🚀 Happy Learning with Study Park! 📖✨
+🚀 **Happy Learning with Study Park!** 📖✨
 
