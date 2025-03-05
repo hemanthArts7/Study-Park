@@ -25,12 +25,7 @@ Study Park is a **Flutter-based educational app** designed to provide students w
 - 💡 **Affiliate Marketing** – Earn through book recommendations.
 - 📲 **Firebase Firestore Backend** – Manage app content dynamically with real-time updates.
 
-<p align="center">
-  <img src="screenshots/home_screen.png" width="250">
-  <img src="screenshots/semester_selection.png" width="250">
-  <img src="screenshots/subject_list.png" width="250">
-  <img src="screenshots/unit_pdfs.png" width="250">
-</p>
+
 
 ## 🚀 Installation
 
